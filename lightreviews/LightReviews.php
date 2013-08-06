@@ -26,6 +26,9 @@ class LightReviews {
 	private function load_files(){
 		new LRVAdminSettings();
 		new LRVCommentFields();
+		new LRVCommentAdmin();
+		new LRVFrontendAPI();
+		new LRVEnqueues();
 	}
 	
 	public function install(){		

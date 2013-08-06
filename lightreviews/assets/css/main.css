@@ -1,2 +1,73 @@
-
-/* This beautiful CSS-File has been crafted with LESS (lesscss.org) and compiled by simpLESS (wearekiss.com/simpless) */
+.lrv-stars {
+  background: url('../img/stars.png') no-repeat;
+  display: inline-block;
+  height: 24px;
+  width: 100px;
+}
+.lrv-stars.lrv-stars-container {
+  background: none;
+  width: auto;
+  height: 20px;
+}
+.lrv-stars.lrv-stars-container .lrv-star {
+  background: url('../img/stars.png') no-repeat 0px -2px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+.lrv-stars.lrv-stars-container .lrv-star.lrv-star-half {
+  background-position: 0px -26px;
+}
+.lrv-stars.lrv-stars-container .lrv-star.lrv-star-one {
+  background-position: 0px -50px;
+}
+.lrv-stars.lrv-stars-half {
+  background-position: 0px -24px;
+}
+.lrv-stars.lrv-stars-one {
+  background-position: 0px -48px;
+}
+.lrv-stars.lrv-stars-one-half {
+  background-position: 0px -72px;
+}
+.lrv-stars.lrv-stars-two {
+  background-position: 0px -96px;
+}
+.lrv-stars.lrv-stars-two-half {
+  background-position: 0px -120px;
+}
+.lrv-stars.lrv-stars-three {
+  background-position: 0px -144px;
+}
+.lrv-stars.lrv-stars-three-half {
+  background-position: 0px -168px;
+}
+.lrv-stars.lrv-stars-four {
+  background-position: 0px -192px;
+}
+.lrv-stars.lrv-stars-four-half {
+  background-position: 0px -216px;
+}
+.lrv-stars.lrv-stars-five {
+  background-position: 0px -240px;
+}
+.lightreview-wrapper {
+  display: inline-block;
+  height: 20px;
+}
+.lightreview-wrapper #lrv-reset-rating {
+  display: inline-block;
+  line-height: 20px;
+  margin-left: 5px;
+  position: relative;
+  top: -5px;
+}
+.lrv-rating-wrapper .lrv-stars {
+  overflow: hidden;
+  text-indent: -9999em;
+}
+.lightreviews-aggregate-rating .lrv-stars {
+  text-indent: -9999em;
+  overflow: hidden;
+}
