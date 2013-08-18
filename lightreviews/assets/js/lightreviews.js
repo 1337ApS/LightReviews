@@ -36,6 +36,7 @@
 			var rating = $('.lrv-star.lrv-star-one', $star_container).length;
 			$('input[name="rating"]', $container).val(rating);
 			$reset.show();
+			$(document).trigger('lrv-click-stars');
 		};
 		
 		var reset_stars = function(){
